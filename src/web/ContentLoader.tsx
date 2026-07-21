@@ -4,6 +4,6 @@ import { Facebook, IContentLoaderProps } from '.'
 import Svg from './Svg'
 
 const ContentLoader: React.FC<IContentLoaderProps> = props =>
-  props.children ? <Svg {...props} /> : <Facebook {...props} />
+  { throw new Error("STUB"); }
 
 export default ContentLoader
